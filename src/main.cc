@@ -37,7 +37,6 @@ int main() {
       generator = std::make_unique<PrimGenerator>();
       break;
     case 3:
-      generator = std::make_unique<WilsonGenerator>();
     default:
       generator = std::make_unique<WilsonGenerator>();
       break;
